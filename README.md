@@ -15,8 +15,6 @@ EN:
 Resolve macOS screensaver memory leak bugs
 
 Screensaver has had a memory leak since macOS 14 Sonoma (see link below for details)
-https://discussions.apple.com/thread/255256761?sortBy=rank
-https://discussionschinese.apple.com/thread/255193067?sortBy=rank
 
 Specifically, the legacyScreenSaver (Wallpaper) process takes up over 1G of memory after each screen saver entry, repeatedly triggering a hard disk Swap memory write on my 32GB RAM MacBook Pro (M1 Pro).
 
