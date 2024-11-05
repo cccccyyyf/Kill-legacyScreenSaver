@@ -1,7 +1,6 @@
 # Kill-legacyScreenSaver
 
-ZH:
-解决 macOS 屏幕保护程序内存泄漏的bug 
+## ZH：解决 macOS 屏幕保护程序内存泄漏的bug 
 
 自 macOS 14 Sonoma 以来，屏幕保护程序出现了内存泄漏的问题（详情见以下链接）
 
@@ -11,8 +10,7 @@ ZH:
 
 此脚本在Chatgpt的帮助下完成。
 
-EN:
-Resolve macOS screensaver memory leak bugs
+## EN: Resolve macOS screensaver memory leak bugs
 
 Screensaver has had a memory leak since macOS 14 Sonoma (see link below for details)
 
@@ -24,6 +22,6 @@ No adverse effects such as system crashes have been found as a result of forcing
 
 This script is done with the help of Chatgpt.
 
-详情链接 Link to more details：
+### 详情链接 Link to more details：
 https://discussions.apple.com/thread/255256761?sortBy=rank
 https://discussionschinese.apple.com/thread/255193067?sortBy=rank
